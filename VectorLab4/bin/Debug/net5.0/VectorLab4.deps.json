@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "VectorLab4/1.0.0": {
+        "dependencies": {
+          "VectorLibrary": "1.0.0"
+        },
+        "runtime": {
+          "VectorLab4.dll": {}
+        }
+      },
+      "VectorLibrary/1.0.0": {
+        "runtime": {
+          "VectorLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VectorLab4/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VectorLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

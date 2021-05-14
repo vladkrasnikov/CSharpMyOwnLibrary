@@ -1,0 +1,12 @@
+C:\Users\krasn\source\repos\VectorLibrary\bin\Debug\net5.0\VectorLibrary.deps.json
+C:\Users\krasn\source\repos\VectorLibrary\bin\Debug\net5.0\VectorLibrary.dll
+C:\Users\krasn\source\repos\VectorLibrary\bin\Debug\net5.0\ref\VectorLibrary.dll
+C:\Users\krasn\source\repos\VectorLibrary\bin\Debug\net5.0\VectorLibrary.pdb
+C:\Users\krasn\source\repos\VectorLibrary\obj\Debug\net5.0\VectorLibrary.csprojAssemblyReference.cache
+C:\Users\krasn\source\repos\VectorLibrary\obj\Debug\net5.0\VectorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\krasn\source\repos\VectorLibrary\obj\Debug\net5.0\VectorLibrary.AssemblyInfoInputs.cache
+C:\Users\krasn\source\repos\VectorLibrary\obj\Debug\net5.0\VectorLibrary.AssemblyInfo.cs
+C:\Users\krasn\source\repos\VectorLibrary\obj\Debug\net5.0\VectorLibrary.csproj.CoreCompileInputs.cache
+C:\Users\krasn\source\repos\VectorLibrary\obj\Debug\net5.0\VectorLibrary.dll
+C:\Users\krasn\source\repos\VectorLibrary\obj\Debug\net5.0\ref\VectorLibrary.dll
+C:\Users\krasn\source\repos\VectorLibrary\obj\Debug\net5.0\VectorLibrary.pdb
