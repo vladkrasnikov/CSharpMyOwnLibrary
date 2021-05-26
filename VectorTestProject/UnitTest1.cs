@@ -9,8 +9,7 @@ namespace VectorTestProject
         public void TestMethodisPositive()
         {
             var v = new Vector(111, -213, -313);
-            Assert.IsTrue(true == v.X.isPositive());
-            Assert.IsTrue(false == v.Y.isPositive());
+            Assert.IsTrue(!v.IsPositive);
         }
         [TestMethod]
         public void TestMethodInverse()
@@ -22,8 +21,7 @@ namespace VectorTestProject
         public void TestMethodisInteger()
         {
             var v = new Vector(11.1, -213, -31.3);
-            Assert.IsTrue(false == v.X.isInteger());
-            Assert.IsTrue(true == v.Y.isInteger());
+            Assert.IsTrue(!v.IsInteger);
         }
         [TestMethod]
         public void TestMethodZeroLength()
@@ -36,7 +34,7 @@ namespace VectorTestProject
         {
             var v = new Vector(21, 22, 12.2);
             var vr = new Vector(0, 2, 52.2);
-            Assert.IsTrue(49.406 == Vector.Gap(v,vr));
+            Assert.IsTrue(49.406 == System.Math.Round(Vector.Gap(v, vr), 3));
         }
         [TestMethod]
         public void TestMethodToString()
@@ -48,19 +46,19 @@ namespace VectorTestProject
         public void TestMethodVectorPositive()
         {
             var v = new Vector(2, 22, 12.2);
-            Assert.IsTrue(true == Vector.isPositive(v));
+            Assert.IsTrue(v.IsPositive);
         }
         [TestMethod]
         public void TestMethodVectorInteger()
         {
             var v = new Vector(2, 22, 12);
-            Assert.IsTrue(true == Vector.isInteger(v));
+            Assert.IsTrue(v.IsInteger);
         }
         [TestMethod]
         public void TestMethodLength()
         {
             var v = new Vector(2, 22, 12);
-            Assert.IsTrue(25.14 == v.Length());
+            Assert.IsTrue(25.14 == System.Math.Round(v.Length(), 2));
         }
         [TestMethod]
         public void TestOperatorPlus()
@@ -84,7 +82,7 @@ namespace VectorTestProject
         public void TestMethodScalDobytok()
         {
             var v = new Vector(2, 22, 12);
-            Assert.IsTrue(84 == Vector.scalDobytok(v , new Vector(2, 2, 3)));
+            Assert.IsTrue(84 == (v ^ new Vector(2, 2, 3)));
         }
         [TestMethod]
         public void TestOperatorNotEqual()
@@ -102,7 +100,7 @@ namespace VectorTestProject
         public void TestMethodEqual()
         {
             var v = new Vector(2, 22, 12);
-            Assert.IsTrue(true == v.Equals(new Vector(2, 22, 12)));
+            Assert.IsTrue(v.Equals(new Vector(2, 22, 12)));
         }
         [TestMethod]
         public void TestMethodClone()
